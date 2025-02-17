@@ -6,12 +6,12 @@ const Layout_1 = (props) => {
     return (
         <div>
             <Header />
-        <div className="main">
-            <Sidebar />
-            <div className="body_part">
-                {props.children}
+            <div className="main">
+                <Sidebar />
+                <div className="body_part">
+                    {props.children}
+                </div>
             </div>
-        </div>
         </div>
     )
 };

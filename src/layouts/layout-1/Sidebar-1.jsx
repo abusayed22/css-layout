@@ -50,6 +50,7 @@ const Sidebar = (props) => {
             {item.icon}
             {isCollpas ? "" : item.name }
           </Link>
+
         ))
       }
       </div>
@@ -58,6 +59,7 @@ const Sidebar = (props) => {
           isCollpas? <FaArrowRightLong color="gray"/> : <FaArrowLeftLong color="gray"/>
         }
       </div>
+      <a href="https://github.com/abusayed22/css-layout/blob/main/src/layouts/layout-1/Layout_1.jsx">github</a>
     </div>
   )
 };

@@ -50,7 +50,6 @@ export default function Home() {
                 <p><button>Contact</button></p>
               </div>
             </div>
-            <a href="">github</a>
           </div>
         </main>
       </div>
